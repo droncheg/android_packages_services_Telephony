@@ -717,16 +717,9 @@
     </string-array>
 
     <string-array name="enabled_networks_choices" translatable="false">
-        <item>TDSCDMA/GSM/WCDMA</item>
-        <item>TDSCDMA/GSM</item>
-        <item>TDSCDMA/WCDMA</item>
-        <item>TDSCDMA only</item>
-        <item>Global</item>
-        <item>EvDo only</item>
-        <item>GSM/WCDMA auto</item>
-        <item>WCDMA only</item>
-        <item>GSM only</item>
-        <item>GSM/WCDMA preferred</item>
+        <item>2G / 3G auto</item>
+        <item>2G only</item>
+        <item>3G only</item>
      </string-array>
     <string-array name="enabled_networks_4g_choices" translatable="false">
         <item>@string/network_4G</item>
@@ -734,9 +727,9 @@
         <item>@string/network_2G</item>
     </string-array>
     <string-array name="enabled_networks_values" translatable="false">
-        <item>"9"</item>
         <item>"0"</item>
         <item>"1"</item>
+        <item>"2"</item>
     </string-array>
 
     <string-array name="enabled_networks_cdma_choices" translatable="false">
